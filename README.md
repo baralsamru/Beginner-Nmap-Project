@@ -30,12 +30,7 @@ Command:
 ```bash
 nmap -A <target-ip>
 ```
-4. Aggressive Scan
-Command:
-```bash
-nmap -A <target-ip>
-```
-5. Detect the operating system:
+4. Detect the operating system:
 ```bash
 nmap -O <target-ip>
 ```
