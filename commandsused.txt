@@ -1,0 +1,21 @@
+# Nmap Commands Used in the Project
+
+# 1. Host Discovery (-sn)
+# This command checks if scanme.nmap.org is online without scanning ports.
+sudo nmap -sn scanme.nmap.org
+
+# 2. Service Version Detection (-sV)
+# Detects the version of services running on open ports on scanme.nmap.org.
+sudo nmap -sV scanme.nmap.org
+
+# 3. OS Detection (-O)
+# Identifies the operating system running on scanme.nmap.org.
+sudo nmap -O scanme.nmap.org
+
+# 4. Aggressive Scan (-A)
+# Combines OS detection, version detection, script scanning, and traceroute.
+sudo nmap -A scanme.nmap.org
+
+# 5. Save Output to File (-oN)
+# Saves the output of an aggressive scan to a readable text file named "output.txt".
+sudo nmap -A scanme.nmap.org -oN output.txt
