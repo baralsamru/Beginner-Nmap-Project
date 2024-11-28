@@ -17,7 +17,7 @@ As a beginner cybersecurity student, I used **Nmap**, a powerful network scannin
 1.Host Discovery (Ping Scan)
 Command: 
    ```bash
-   nmap -sn <target-ip-range>
+   nmap -sn <target-ip>
 ```
 2. Service Version Detection
 Command:
@@ -38,3 +38,4 @@ Combined Command
 ```bash
 nmap -sV -O -A <target-ip>
 ```
+**Important:** Always ensure you have permission to scan any target other than `scanme.nmap.org`.
