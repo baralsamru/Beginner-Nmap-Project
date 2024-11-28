@@ -33,9 +33,13 @@ nmap -A <target-ip>
 ```bash
 nmap -O <target-ip>
 ```
+5. Save Output to File a called output.txt
+   ```bash
+   sudo nmap -sV -O -A <target-ip> -oN output.txt
 
 Combined Command
 ```bash
 nmap -sV -O -A <target-ip>
 ```
+
 **Important:** Always ensure you have permission to scan any target other than `scanme.nmap.org`.
