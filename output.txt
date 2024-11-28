@@ -6,9 +6,9 @@ Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2
 Nmap done: 1 IP address (1 host up) scanned in 0.99 seconds
 
 #Combined Command
-Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-11-28 07:30 EST
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-11-28 07:39 EST
 Nmap scan report for scanme.nmap.org (45.33.32.156)
-Host is up (0.10s latency).
+Host is up (0.14s latency).
 Other addresses for scanme.nmap.org (not scanned): 2600:3c01::f03c:91ff:fe18:bb2f
 Not shown: 995 closed tcp ports (reset)
 PORT      STATE    SERVICE    VERSION
@@ -25,16 +25,17 @@ PORT      STATE    SERVICE    VERSION
 |_http-title: Go ahead and ScanMe!
 9929/tcp  open     nping-echo Nping echo
 31337/tcp open     tcpwrapped
-Aggressive OS guesses: Linux 5.0 (94%), Linux 5.0 - 5.4 (94%), HP P2000 G3 NAS device (92%), Linux 4.15 - 5.8 (92%), Linux 5.3 - 5.4 (92%), Linux 2.6.32 (92%), Linux 2.6.32 - 3.1 (91%), Linux 3.7 (91%), Linux 5.0 - 5.5 (91%), Linux 5.1 (91%)
+Aggressive OS guesses: Linux 5.0 - 5.4 (94%), Linux 5.0 (94%), HP P2000 G3 NAS device (92%), Linux 4.15 - 5.8 (92%), Linux 5.3 - 5.4 (92%), Linux 2.6.32 (92%), Linux 2.6.32 - 3.1 (91%), Linux 3.7 (91%), Linux 5.0 - 5.5 (91%), Ubiquiti AirOS 5.5.9 (91%)
 No exact OS matches for host (test conditions non-ideal).
 Network Distance: 3 hops
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 TRACEROUTE (using port 80/tcp)
-HOP RTT     ADDRESS
-1   3.38 ms 192.168.0.1
-2   4.25 ms 192.168.1.254
-3   9.55 ms scanme.nmap.org (45.33.32.156)
+HOP RTT      ADDRESS
+1   51.41 ms 192.168.0.1
+2   3.66 ms  192.168.1.254
+3   61.08 ms scanme.nmap.org (45.33.32.156)
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 36.04 seconds
+Nmap done: 1 IP address (1 host up) scanned in 49.95 seconds
+
