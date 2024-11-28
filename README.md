@@ -36,5 +36,5 @@ nmap -O <target-ip>
 
 Combined Command
 ```bash
-nmap -sn -sV -O -A <target-ip>
+nmap -sV -O -A <target-ip>
 ```
