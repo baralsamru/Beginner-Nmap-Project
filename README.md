@@ -35,3 +35,7 @@ Command:
 ```bash
 nmap -A <target-ip>
 ```
+5. Detect the operating system:
+```bash
+nmap -O <target-ip>
+```
