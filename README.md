@@ -14,23 +14,4 @@ As a beginner cybersecurity student, I used **Nmap**, a powerful network scannin
 
 ---
 
-## Commands and Scans
-1.Host Discovery (Ping Scan)
-Command: 
-   ```bash
-   nmap -sn <target-ip-range>
-```
-2. Service Version Detection
-Command:
-```bash
-nmap -sV <target-ip>
-```
-3. Aggressive Scan
-Command:
-```bash
-nmap -A <target-ip>
-```
-4. Detect the operating system:
-```bash
-nmap -O <target-ip>
-```
+
